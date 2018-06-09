@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule ^([0-9a-fA-F]{5,32})$ ./go.php?hash=$1

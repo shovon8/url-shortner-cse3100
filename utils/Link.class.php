@@ -19,7 +19,7 @@ final class Link {
     }
 
 
-    public static function addLink($link, $userObj = null) {
+    public static function addLink($link, $userObj = null, &$hash) {
         global $mysqli;
 
         // check if $userObj is null, if not check whether a valid user is logged in
