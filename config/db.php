@@ -1,8 +1,8 @@
 <?php
-define('USER', 'shovon');
-define('HOST', 'localhost');
-define('PASSWORD', '123');
-define('DB', 'li.nk');
+define('USER', 'YOUR_DB_USERNAME');
+define('HOST', 'YOUR_HOSTNAME');
+define('PASSWORD', 'YOUR_DB_PASSWORD');
+define('DB', 'YOUR_DB_NAME');
 
 
 $mysqli = new mysqli(HOST, USER, PASSWORD, DB);
